@@ -11,4 +11,6 @@ Map explanation--------------------------------
 
 Connections only go upwards then rightwards or rightwards then upwards.
 
+"Next to" connections represented with '•'.
+
 Read bottom left to the top right.

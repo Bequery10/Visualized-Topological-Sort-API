@@ -57,7 +57,7 @@ public class TopologicalSort {
                    
                     if(smallerP.y >= 0 &&( arr[smallerP.x][smallerP.y]==0 || arr[smallerP.x][smallerP.y]==65535 || arr[smallerP.x][smallerP.y]==65534 ) && arr[smallerP.x][smallerP.y]!=65533){
                     if(Math.abs(smallerP.y-y)>0){
-                        if(arr[smallerP.x][smallerP.y]!=-1)
+                        if(arr[smallerP.x][smallerP.y]!=65535)
                     arr[smallerP.x][smallerP.y]=(char)-2;
                     }
                     else
@@ -81,7 +81,7 @@ public class TopologicalSort {
                    
                     if(smallerP.y >= 0 &&( arr[smallerP.x][smallerP.y]==0 || arr[smallerP.x][smallerP.y]==65535 || arr[smallerP.x][smallerP.y]==65534 ) && arr[smallerP.x][smallerP.y]!=65533) {
                     if(Math.abs(smallerP.y-y)>0){
-                        if(arr[smallerP.x][smallerP.y]!=-1)
+                        if(arr[smallerP.x][smallerP.y]!=65535)
                     arr[smallerP.x][smallerP.y]=(char)-2;
                     }
                     else

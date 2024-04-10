@@ -6,7 +6,7 @@ class Main{
         DiGraph graph=new DiGraph(size); // DiGraph
        
         // adds edges randomly if required
-        // addEdges(random,graph,5,display); 
+        // addEdges(graph,5,display); 
         
         TopologicalSort.sort(graph,1);
 

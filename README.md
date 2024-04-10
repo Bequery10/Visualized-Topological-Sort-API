@@ -9,6 +9,6 @@ Map explanation--------------------------------
 
 '|' -> go vertical
 
-Connections only go upwards and rightwards.
+Connections only go upwards then rightwards or rightwards then upwards.
 
 Read bottom left to the top right.

@@ -9,4 +9,6 @@ Map explanation--------------------------------
 
 '|' -> go vertical
 
+Connections only go upwards and rightwards.
+
 Read bottom left to the top right.
